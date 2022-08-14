@@ -108,5 +108,5 @@ func main() {
 	router.POST("/books", createBook)
 	router.PATCH("/checkout", checkoutBook)
 	router.PATCH("/return", returnBook)
-	router.Run("localhost:8080")
+	router.Run(":8080")
 }
